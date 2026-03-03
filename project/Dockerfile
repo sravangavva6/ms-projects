@@ -1,0 +1,21 @@
+FROM openjdk:11-jre-slim
+
+# Install Python and basic utilities
+RUN apt-get update && apt-get install -y     python3     python3-pip     wget     curl     && rm -rf /var/lib/apt/lists/*
+
+# Set environment variables
+ENV PYSPARK_PYTHON=python3
+ENV SPARK_VERSION=3.5.0
+ENV HADOOP_VERSION=3
+
+# Install Spark
+RUN wget https://archive.apache.org/dist/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION}.tgz &&     tar -xzf spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION}.tgz &&     mv spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION} /opt/spark &&     rm spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION}.tgz
+
+ENV SPARK_HOME=/opt/spark
+ENV PATH=$SPARK_HOME/bin:$PATH
+
+WORKDIR /app
+
+COPY . /app
+
+CMD ["bash"]

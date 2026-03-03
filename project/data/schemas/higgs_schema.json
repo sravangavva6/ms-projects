@@ -1,0 +1,151 @@
+{
+    "dataset": "HIGGS",
+    "description": "Schema definition for HIGGS_small.csv used in Spark ML pipeline",
+    "fields": [
+        {
+            "name": "label",
+            "type": "integer",
+            "nullable": false
+        },
+        {
+            "name": "f1",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f2",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f3",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f4",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f5",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f6",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f7",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f8",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f9",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f10",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f11",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f12",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f13",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f14",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f15",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f16",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f17",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f18",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f19",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f20",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f21",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f22",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f23",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f24",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f25",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f26",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f27",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "f28",
+            "type": "double",
+            "nullable": true
+        }
+    ]
+}

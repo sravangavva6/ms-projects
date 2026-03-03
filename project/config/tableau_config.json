@@ -1,0 +1,27 @@
+{
+    "project_name": "HIGGS Dataset Analysis",
+    "dashboards": [
+        {
+            "name": "Data Quality & Pipeline Monitoring",
+            "description": "Monitors class distribution, record counts, feature stability, and zero-value presence."
+        },
+        {
+            "name": "Model Performance & Feature Importance",
+            "description": "Compares classification models and visualizes key feature behavior."
+        },
+        {
+            "name": "Business Insights & Recommendations",
+            "description": "Translates analytical results into domain-relevant insights for decision-making."
+        },
+        {
+            "name": "Scalability & Cost Analysis",
+            "description": "Highlights data volume, feature dimensionality, and scalability considerations."
+        }
+    ],
+    "data_source": {
+        "file": "HIGGS_small.csv",
+        "format": "CSV",
+        "delimiter": ","
+    },
+    "notes": "Dashboards are intentionally simple with no binning or advanced calculations."
+}

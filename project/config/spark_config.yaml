@@ -1,0 +1,20 @@
+spark:
+  app:
+    name: HIGGS-BigData-Classification
+  master: local[*]
+
+  resources:
+    executor_memory: 4g
+    driver_memory: 4g
+    executor_cores: 2
+
+  sql:
+    shuffle_partitions: 200
+    adaptive_enabled: true
+
+  storage:
+    persistence: MEMORY_AND_DISK
+
+  checkpoint:
+    enabled: true
+    directory: spark_checkpoints
